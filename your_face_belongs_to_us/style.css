@@ -1,0 +1,57 @@
+/* Apply styles to the header section */
+header {
+    text-align: center;
+    background-color: rgb(220, 22, 154);
+    padding: 40px;
+    background-image: linear-gradient(rgb(220, 22, 154), rgba(241, 22, 19, 0.5));
+}
+
+header img {
+    max-width: 60%;
+}
+
+header img:hover {
+    filter: brightness(90%);
+}
+
+h1 {
+    color: rgb(251, 133, 69);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+h2 {
+    color: rgb(112, 45, 9);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.talk-content { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(233, 21, 81);
+}
+/* Style the image gallery section */
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: rgb(220, 22, 154);
+    background-image: linear-gradient(rgba(241, 22, 19, 0.5), rgb(220, 22, 154));
+}
+
+.image-gallery img {
+    max-width: 30%;
+    border: 2px solid rgb(251, 133, 69);
+    margin: 10px;
+}
+
+/* Apply a hover effect to the gallery images */
+.image-gallery img:hover {
+    filter: brightness(90%);
+}
+
+/* Add additional styles as needed */
