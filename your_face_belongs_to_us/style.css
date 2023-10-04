@@ -25,6 +25,25 @@ h2 {
     font-weight: 800;
     text-align: center;
 }
+figcaption {
+    color: rgb(251, 133, 69);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #005eff; 
+    color: #fff; 
+    text-decoration: none; 
+    border: none; 
+    border-radius: 5px; 
+}
+
+.button-link:hover {
+    background-color: #7a00b3; 
+}
 
 .talk-content { 
     display: flex;
@@ -35,13 +54,14 @@ h2 {
 }
 /* Style the image gallery section */
 .image-gallery {
-    display: flex;
+    display: inline-flexbox;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
     padding: 20px;
     background-color: rgb(220, 22, 154);
     background-image: linear-gradient(rgba(241, 22, 19, 0.5), rgb(220, 22, 154));
 }
+
 
 .image-gallery img {
     max-width: 30%;
